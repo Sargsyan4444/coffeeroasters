@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+[class*="__container"]{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    font-family: "Winky Sans", sans-serif;
+    background-color: #FEFCF7;
+    width: 100%;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.header__container>img{
+    width: 235px;
+    height: 25px;
+    object-fit: contain;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+.menu_list{
+    list-style: none;
+}
+.menu_link:hover{
+    color: #000000;
+}
+.menu_link{
+    text-decoration: none;
+    font-weight: 700;
+    color: #83888F;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/* main */
+
+/* greate_coffee */
+.greate_coffee {
+    background-image: url(/images/Bitmap.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 600px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.greatecoffee__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.great_coffee_info {
+    max-width: 530px;
+    color: #FEFCF7;
+}
+
+.great_coffee_info>h1{
+    font-weight: 700;
+    padding-top: 117px;
+    font-size: 72px;
+    color: #FEFCF7;
+   width: 532px;
+   
+}
+.great_coffee_info>p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FEFCF7;
+    font-family: "Winky Sans", sans-serif;
+   text-align: left;
+   width: 445px;
+   padding-top: 32px;
+}
+.create_btn{
+    padding-top: 56px;
+    padding-bottom: 116px;
+}
+.create_btn>button{
+    width: 217px;
+    height: 56px;
+    background-color: #0E8784;
+    color: #FEFCF7;
+    font-weight: 900;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 1s;
+}
+.create_btn>button:hover{
+    background-color: #66D2CF;
+}
+/*collection  */
+.collection{
+    background-color: #FEFCF7;
+    width: 100%;
+    font-family: "Winky Sans", sans-serif;
+}
+.collection__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.coll_image{
+    width: 100%;
+    max-width: 1111px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 136px;
+    display: block;
+}
+.collectionCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    padding-bottom: 200px;
+}
+.collectionCard{
+    height: 400px;
+    width: 234px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.collectionCard>img{
+    width: 234px;
+    height: 177px;
+    object-fit: contain;
+    margin-bottom: 75px;
+}
+.collection_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.collection_info>h4{
+    color: #333D4B;
+    font-weight: 900;
+    font-size: 24px;
+}
+.collection_info>p{
+    color: #333D4B;
+    padding-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* why_choose */
+.why_choose{
+    background-color: #22262c;
+    width: 100%;
+    font-family: "Winky Sans", sans-serif;
+}
+.choose__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.choose__container>h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: #FEFCF7;
+    padding-top: 100px;
+    padding-bottom: 32px;
+}
+.choose__container>p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FEFCF7;
+    font-family: "Winky Sans", sans-serif;
+    padding-bottom: 102px;
+    width: 540px;
+    text-align: center;
+}
+.chooseCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: -170px;
+}
+.chooseCard{
+    width: 350px;
+    height: 380px;
+    background-color: #0E8784;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.chooseCardInfo>h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FEFCF7;
+    padding-bottom: 24px;
+}
+.chooseCard>img{
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    margin-top: 72px;
+    margin-bottom: 56px;
+}
+.chooseCardInfo>p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FEFCF7;
+    margin-bottom: 48px;
+    text-align: center;
+    width: 255px;
+}
+
+
+/* howWork */
+.howWork{
+    width: 100%;
+    background-color: #FEFCF7;
+    font-family: "Winky Sans", sans-serif;
+}
+.howWork__container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 350px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.howWork__container>h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #83888F;
+    padding-bottom: 80px;
+}
+.line{
+    width: 670px;
+    background-color: #FDD6BA;
+    height: 3px;
+    position: relative;
+}
+.circle{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid #0E8784;
+    background-color: #FEFCF7;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+.circle2{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid #0E8784;
+    background-color: #FEFCF7;
+    position: absolute;
+    right: 365px;
+    top: -15px;
+}
+.circle3{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid #0E8784;
+    background-color: #FEFCF7;
+    position: absolute;
+    top: -15px;
+}
+.workCards{
+    padding-top: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 95px;
+    padding-bottom: 64px;
+}
+.workCard{
+    width: 285px;
+    height: 355px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.workCard>h4{
+    font-weight: 900;
+    font-size: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+    margin-bottom: 38px;
+}
+.workCard>h3{
+    width: 205px;
+    font-weight: 800;
+    font-size: 32px;
+    color: #333D4B;
+    margin-bottom: 42px;
+}
+.workCard>p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #333D4B;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: #2C343E;
+}
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 45px 85px;
+}
+.logo{
+    width: 235px;
+    height: 25px;
+    object-fit: contain;
+}
+.icons_part{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+.menu_link_footer:hover{
+    color: #FEFCF7;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .greate_coffee {
+        height: 500px; 
+    }
+    .great_coffee_info>h1 {
+        font-size: 48px;
+        width: 329px;
+    }
+    .great_coffee_info>p {
+        width: 398px;
+        font-size: 15px;
+    }
+    .logo{
+        width: 236px;
+        height: 26px;
+    }
+    .greatecoffee__container{
+        padding: 0 20px;
+    }
+    .collectionCards{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .collectionCard{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 520px;
+        height: 193px;
+    }
+    .collectionCard>p{
+        text-align: left;
+    }
+    .line {
+        width: 396px;
+    }
+    .chooseCards{
+        flex-direction: column;
+    }
+    .chooseCard{
+        flex-direction: row;
+        width: 100%;
+        max-width: 553px;
+        min-width: 320px; 
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        /* padding: 20px 40px; */
+    }
+    .chooseCardInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .chooseCardInfo>h3{
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .greate_coffee {
+        height: 500px;
+    }
+    .menu{
+        gap: 12px;
+
+    }
+    .menu_link{
+        font-size: 11px;
+    }
+    .logo{
+        width: 145px;
+    }
+    .line {
+        width: 231px;
+    }
+    .choose__container>p {
+        width: 355px;
+    }
+    .collectionCard {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 234px;
+        height: 400px;
+      }
+    
+      .collectionCard>img {
+        width: 234px;
+        height: 177px;
+        margin-bottom: 75px;
+      }
+    
+      .collection_info>p {
+        text-align: center;
+        padding-top: 24px;
+      }
+    }
