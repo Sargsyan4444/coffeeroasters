@@ -48,12 +48,13 @@ body{
 .commitment__container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 168px;
     padding-bottom: 224px;
     padding-left: 165px;
     padding-right: 165px;
     gap: 125px;
+    flex-wrap: wrap;
 }
 .commitment__container>img{
     width: 445px;
@@ -163,4 +164,61 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: #333D4B;
+}
+
+@media (max-width:1062px){
+    .quality__container{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 125px;
+        padding-left: 85px;
+        padding-right: 85px;
+        padding-top: 88px;
+        padding-bottom: 175px;
+    }
+}
+@media (max-width: 768px){
+    .commitment__container {
+        flex-wrap: nowrap;
+        padding-left: 39px;
+        padding-right: 39px;
+        gap: 69px;
+    }
+    .commitment__container>img {
+        width: 281px;
+        height: 470px;
+    }
+    .commitmentinfo>h3{
+        font-size: 32px;
+    }
+    .commitmentinfo>p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 601px){
+    .commitment__container{
+        flex-wrap: wrap;
+    }
+    .aboutUs__container>p{
+        width: 100%;
+    }
+    .quality__container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .quality__container>img{
+        max-width: 350px;
+    }
+    .headquarters__container{
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .headquartersCard>h5 {
+        font-size: 26px;
+    }
 }
