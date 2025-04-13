@@ -8,6 +8,54 @@
     margin: 0 auto;
 }
 
+nav{
+    /* display: none; */
+}
+.of_screen_menu{
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    transition: .3s ease;
+}
+.menuBurger{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+    }
+    .menu_list_burger{
+        list-style: none;
+    }
+    .menu_link_burger{
+        font-size: 36px;
+    text-decoration: none;
+    color: white;
+    }
+.of_screen_menu.active{
+    right: 0;
+}
+.fa-xmark{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #FEFCF7;
+}
+.burgerBar {
+    display: none; /* լռելյայն թաքնված է */
+  }
+.fa-solid, .fas {
+    
+}
 /* header */
 header{
     font-family: "Winky Sans", sans-serif;
@@ -367,6 +415,18 @@ footer{
 }
 
 /* responsive */
+@media (max-width: 610px){
+    .burgerBar{
+        display: block;
+    }
+    .fa-bars{
+        color: #000;
+        font-size: 18px;
+    }
+    nav{
+        display: none;
+    }
+}
 @media (max-width: 768px) {
     .greate_coffee {
         height: 500px; 

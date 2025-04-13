@@ -7,12 +7,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="header__container">
             <a href="index.html"><img src="images/Group 5.svg" alt="" class="logo"></a>
+            <div class="of_screen_menu">
+                <ul class="menuBurger">
+                    <i class="fa-solid fa-xmark"></i>
+                    <li class="menu_list_burger"><a href="index.html" class="menu_link_burger">HOME</a></li>
+                    <li class="menu_list_burger"><a href="about.html" class="menu_link_burger">ABOUT US</a></li>
+                    <li class="menu_list_burger"><a href="create.html" class="menu_link_burger">Create your plan</a></li>
+                </ul>
+            </div>
             <nav>
                 <ul class="menu">
                     <li class="menu_list"><a href="index.html" class="menu_link">HOME</a></li>
@@ -20,6 +29,9 @@
                     <li class="menu_list"><a href="create.html" class="menu_link">Create your plan</a></li>
                 </ul>
             </nav>
+            <div class="burgerBar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
     </header>
     <main>
@@ -103,5 +115,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
